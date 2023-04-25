@@ -3,9 +3,9 @@ import java.awt.Frame;
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
-        TrinaguloRectangulo triangulo = new TrinaguloRectangulo();
-        triangulo.altura = 20;
-        triangulo.base = 10;
+        TrianguloRectangulo triangulo = new TrianguloRectangulo();
+        triangulo.setAltura(20);
+        triangulo.setBase(10);
 
         System.out.println(triangulo.calcularArea());
 
